@@ -56,7 +56,7 @@ extension Permission {
             case .authorized: status = .authorized
             case .denied: status = .denied
             case .notDetermined: status = .notDetermined
-            case .provisional: status = .authorized
+            case .provisional, .ephemeral: status = .authorized
             @unknown default: status = .notDetermined
             }
 
