@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name          = 'Permission'
-  s.version       = '3.1.3'
+  s.version       = '3.1.4'
   s.license       = 'MIT'
   s.homepage      = 'https://github.com/delba/Permission'
   s.author        = { 'Damien' => 'damien@delba.io' }
